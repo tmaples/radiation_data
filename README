@@ -1,0 +1,10 @@
+This folder contains the following:
+1. Matrix of 2000 US Census county-to-county commuter data
+2. Matrix of county-to-county movement probability made using the radiation model
+3. Sorted list of FIPS codes for the counties in the matrices
+4. A sample of python code to load and manipulate the matrices
+
+Each matrix is a 3109x3109 normal python list (not numpy).
+Rows represent the source county, columns the destination county.
+Values along the diagonal of both matrices are 0.
+Rows in the probability matrix sum to 1.
